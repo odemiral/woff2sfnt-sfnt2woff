@@ -5,11 +5,13 @@ Node.js font converter capable of converting SFNT ([TrueType](https://en.wikiped
 
 Usage
 ----------
-To convert fonts from **woff2sfnt** invoke the script from the command line:
+All commands are invoked from the command line.  
+
+To convert fonts from a **woff** format run: 
 
     woff2sfn.js input.ttf output.woff
 
-To convert fonts from sfnt2woff invoke the script from the command line:
+To convert fonts from an **sfnt (TrueType/OpenFont)** format run:
 
     sfnt2woff.js input.woff output.otf
 
